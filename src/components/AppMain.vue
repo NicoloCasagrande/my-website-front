@@ -11,7 +11,9 @@ export default {
 
 <template>
   <main>
-    <ListProjects />
+    <div class="container">
+      <ListProjects />
+    </div>
   </main>
 </template>
 

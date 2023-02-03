@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Lista Progetti</h2>
+    <h2 class="text-center">Lista Progetti</h2>
     <div class="row">
       <CardProject v-for="project in projects" :data="project" />
     </div>
