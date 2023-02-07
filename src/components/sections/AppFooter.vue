@@ -16,7 +16,7 @@ export default {
           <router-link :to="{ name: 'homepage' }"
             ><AppLogo class="footer-logo"
           /></router-link>
-          <span
+          <span class="mt-3"
             >Sviluppatore Full Stack per la realizzazione dei tuoi siti
             Web.</span
           >
