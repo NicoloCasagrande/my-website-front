@@ -94,9 +94,6 @@ a:hover {
   &.dark {
     background-color: #18151f;
   }
-  &.light {
-    background-color: #e1e5ea;
-  }
 
   .t-dark {
     color: #18151f;
@@ -270,11 +267,6 @@ a:hover {
   .postcard.dark {
     .postcard__text:before {
       background: #18151f;
-    }
-  }
-  .postcard.light {
-    .postcard__text:before {
-      background: #e1e5ea;
     }
   }
 }
