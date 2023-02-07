@@ -36,4 +36,12 @@ export default {
 h2 {
   color: white;
 }
+
+.ms-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
 </style>
