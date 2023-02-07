@@ -6,7 +6,9 @@ export default {
 
 <template>
   <header>
-    <h1>Logo</h1>
+    <div class="container">
+      <h1>Logo</h1>
+    </div>
   </header>
 </template>
 
