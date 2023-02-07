@@ -89,6 +89,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   color: #ffffff;
+  height: 300px;
 
   &.dark {
     background-color: #18151f;

@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "./pages/HomePage.vue";
 import AboutMe from "./pages/AboutMe.vue";
 import ContactMe from "./pages/ContactMe.vue";
+import Page404 from "./pages/Page404.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -21,6 +22,11 @@ const router = createRouter({
       path: "/contattami",
       name: "contact-me",
       component: ContactMe,
+    },
+    {
+      path: "/:pathMatch(.*)*",
+      name: "page-404",
+      component: Page404,
     },
   ],
 });
