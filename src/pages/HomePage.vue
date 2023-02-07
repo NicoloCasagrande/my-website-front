@@ -10,7 +10,7 @@ export default {
 
 <template>
   <div class="container">
-    <h1>HomePage</h1>
+    <h1 class="text-center my-4">HomePage</h1>
     <ListProjects />
   </div>
 </template>

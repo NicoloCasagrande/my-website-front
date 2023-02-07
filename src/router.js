@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import HomePage from "./pages/HomePage.vue";
-import ContactMe from "./pages/ContactMe.vue";
 import AboutMe from "./pages/AboutMe.vue";
+import ContactMe from "./pages/ContactMe.vue";
 
 const router = createRouter({
-  history: createWebHistory,
+  history: createWebHistory(),
   routes: [
     {
       path: "/",
@@ -13,16 +13,16 @@ const router = createRouter({
       component: HomePage,
     },
     {
-      path: "/about-me",
+      path: "/chi-sono",
       name: "about-me",
       component: AboutMe,
     },
     {
-      path: "/contact-me",
+      path: "/contattami",
       name: "contact-me",
       component: ContactMe,
     },
   ],
 });
 
-export { router };
+export default router;

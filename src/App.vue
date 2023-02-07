@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
+  <AppHeader class="position-sticky top-0 end-0 start-0" />
   <AppMain />
   <AppFooter />
 </template>
