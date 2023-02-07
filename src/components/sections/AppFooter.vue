@@ -1,9 +1,9 @@
 <script>
-import AppLogo from "../AppLogo.vue";
+import AppLogoFooter from "../AppLogoFooter.vue";
 export default {
   name: "AppFooter",
   components: {
-    AppLogo,
+    AppLogoFooter,
   },
 };
 </script>
@@ -14,7 +14,7 @@ export default {
       <div class="row">
         <div class="col-5 d-flex flex-column">
           <router-link :to="{ name: 'homepage' }"
-            ><AppLogo class="footer-logo"
+            ><AppLogoFooter class="footer-logo"
           /></router-link>
           <span class="mt-3"
             >Sviluppatore Full Stack per la realizzazione dei tuoi siti
