@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <h2 class="text-center">Lista Progetti</h2>
+  <section class="dark">
+    <h2 class="text-center pt-4">LISTA PROGETTI</h2>
     <div class="row">
       <CardProject v-for="project in projects" :data="project" />
     </div>
@@ -29,4 +29,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.dark {
+  background: #110f16;
+}
+h2 {
+  color: white;
+}
+</style>

@@ -9,10 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <h1 class="text-center my-4">HomePage</h1>
-    <ListProjects />
-  </div>
+  <ListProjects />
 </template>
 
 <style lang="scss" scoped></style>

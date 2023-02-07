@@ -65,10 +65,6 @@ body {
   background: #110f16;
 }
 
-.light {
-  background: #f3f5f7;
-}
-
 a,
 a:hover {
   text-decoration: none;
