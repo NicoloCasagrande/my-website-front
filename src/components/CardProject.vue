@@ -1,7 +1,10 @@
 <template>
   <section>
     <div class="container py-4">
-      <article class="postcard dark blue">
+      <article
+        :class="data.id % 2 === 0 ? 'blue' : 'yellow'"
+        class="postcard dark"
+      >
         <a class="postcard__img_link" href="#">
           <img
             class="postcard__img"

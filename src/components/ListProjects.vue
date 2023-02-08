@@ -2,7 +2,7 @@
   <section class="dark">
     <h2 class="text-center pt-4">LISTA PROGETTI</h2>
     <div class="row">
-      <CardProject v-for="project in projects" :data="project" />
+      <CardProject v-for="(project, index) in projects" :data="project" />
     </div>
   </section>
 </template>
