@@ -10,6 +10,7 @@
 <script>
 import axios from "axios";
 import CardProject from "./CardProject.vue";
+import { store } from "../store";
 
 export default {
   name: "ListProjects",
@@ -18,11 +19,12 @@ export default {
   },
   data() {
     return {
+      store,
       projects: [],
     };
   },
   created() {
-    axios.get("http://127.0.0.1:8000/api/projects").then((response) => {
+    axios.get(`${this.store.api_url}/projects`).then((response) => {
       this.projects = response.data;
     });
   },
