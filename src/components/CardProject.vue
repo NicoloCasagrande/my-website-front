@@ -2,7 +2,7 @@
   <section>
     <div class="container py-4">
       <article
-        :class="data.id % 2 === 0 ? 'blue' : 'yellow'"
+        :class="data.id % 2 === 0 ? 'red' : 'blue'"
         class="postcard dark"
       >
         <a class="postcard__img_link" href="#">
@@ -25,8 +25,8 @@
           <ul class="postcard__tagbox">
             <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
             <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-            <li class="tag__item play blue">
-              <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+            <li>
+              <a class="btn btn-primary" href="#">Info</a>
             </li>
           </ul>
         </div>
